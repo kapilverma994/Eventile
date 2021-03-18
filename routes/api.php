@@ -1,3 +1,3 @@
 <?php
 
-Route::post('register','RegisterController@store');
+Route::post('register','Auth\RegisterController@register');
