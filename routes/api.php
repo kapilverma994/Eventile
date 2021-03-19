@@ -1,3 +1,7 @@
 <?php
+Route::group(['namespace'=>'Auth'],function(){
 
-Route::post('register','Auth\RegisterController@register');
+    Route::post('register','RegisterController@register');
+    Route::post('login','LoginController@login');
+});
+    
